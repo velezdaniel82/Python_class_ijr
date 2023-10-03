@@ -1,0 +1,6 @@
+name = input("Type your name: ")
+birth_year = input("Type your year of birth: ")
+birth_year_int = int(birth_year)
+years_left_to_reach_pension = 62 - (2023 - birth_year_int)
+years_left_to_reach_pension_str = str(years_left_to_reach_pension)
+print("Hello, " + name + ". According to the current age of pension in this country for male people (62 years), you still have to pay contributions to the system for " + years_left_to_reach_pension_str + " years.")

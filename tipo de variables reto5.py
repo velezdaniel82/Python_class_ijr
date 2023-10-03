@@ -1,0 +1,8 @@
+name = input("Type your name: ")
+height = input("Type your height in meters: ")
+height_int = float(height)
+weight = input("Type your weight in kilograms: ")
+weight_int = int(weight)
+mass_index = weight_int / (height_int**2)
+mass_index_str = str(mass_index)
+print("Hi, " + name + ". Your corporal mass index is " + mass_index_str)

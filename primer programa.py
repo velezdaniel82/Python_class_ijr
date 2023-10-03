@@ -1,0 +1,8 @@
+nombre_usuario = input("ingrese su nombre de usuario ")
+print("Bienvenido al curso " + nombre_usuario)
+print("¡Hola, " + nombre_usuario + "!")
+lugar_nacimiento = input("inrese su lugar de nacimiento ")
+print("¡Hola, " + nombre_usuario + "! " + "Gracias por reportar sintonía desde " + lugar_nacimiento)
+edad = input("ingrese su edad ")
+objeto = input("ingrese un objeto aleatorio ")
+print("¡ " + nombre_usuario + "! " + "A tus " + edad + " años tendrás un útil " + objeto)
